@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    /* colors */
+    --black-o: #000000;
+    --black: #141414;
+    --darkgray: #707070;
+    --gray: #909090;
+    --lightgray: #D0D0D0;
+    --white-o: #ffffff;
+    --white: #fafafa;
+    --red: #E00006;
+    --darkred: #b51200;
+    --golden: #EFB810;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat';
+}
+
+/* PARRAFOS */
+p {
+    font-family: Poppins;
+    font-size: 15px;
+    color: var(--darkgray);
+}
+
+/* TITULOS */
+h1 {
+    color: var(--black);
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 35px;
+}
+
+/* BOTONES */
+.button {
+    background-color:var(--darkred);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#menu-toggle, .navbar {
+    display: none;
+}
+
+/* HEADER */
+
+header {
+    background: var(--black);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    /*Para fixear en el top de la página*/
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo-header {
+    width: 60%;
+}
+
+.menu-icon {
+    height: 15px;
+}
+
+/* NAVBAR */
+
+
+/* MAIN */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-primary {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.info {
+    padding: 26px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

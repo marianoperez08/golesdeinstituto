@@ -1,0 +1,69 @@
+:root {
+    /* colors */
+    --black-o: #000000;
+    --black: #141414;
+    --darkgray: #707070;
+    --gray: #909090;
+    --lightgray: #D0D0D0;
+    --white-o: #ffffff;
+    --white: #fafafa;
+    --red: #E00006;
+    --darkred: #b51200;
+    --golden: #EFB810;
+}
+
+@media (min-width: 992px) {
+    header {
+        height: 65px;
+        padding: 0 80px;
+    }
+    
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar-list a {
+        font-weight: 900;
+        color: var(--white);
+    }
+
+    .logo-header {
+        width: 20%;
+    }
+    .menu-icon {
+        display: none;
+    }
+
+
+    /* MAIN */
+    main {
+        display: flex;
+    }
+
+
+    .news {
+        padding: 70px 120px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .new-primary {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .new-primary img {
+        height: 50%;
+        border-radius: 15px;
+    }
+
+    .info {
+        display: flex;
+    }
+}
